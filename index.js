@@ -11,7 +11,7 @@ const newID = 1000000000 + oldID ;
 
 number.isInteger(currentAge);
 
-const ageIsValid = if (currentAgeIsInteger) {
+if (currentAgeIsInteger) {
   expect(ageIsValid).to.be.true;
 } else {
   expect(ageIsValid).to.be.false;
